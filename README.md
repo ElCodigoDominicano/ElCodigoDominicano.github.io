@@ -14,14 +14,14 @@ reported by the systems environment(ex. Windows, *Nix, MACOS) such as..
 
 
 ```markdown
-# *Nix
-- list of arguements *Nix systems: bios, processor, network4, network6, memory, drivers, check_vuln, power
-- `$> python SystemParser _Italic_<arguement_here>`
+# Nix
+**List of arguements Nix systems: bios, processor, network4, network6, memory, drivers, check_vuln, power
+- `$> python SystemParser <_arguement_here_>`
 
 # Windows
-- list of arguements for Windows systems: bus, processor, network, memory, drivers, sound, floppy, ide, 
+**List of arguements for Windows systems: bus, processor, network, memory, drivers, sound, floppy, ide, 
 - pcmcia, usb_hub, usb_controller, usb_controller_device, parallel, serial_port, serial_port_settings, graphics
-`$> py SystemParser _Italic_<arguement_here>`
+`$> py SystemParser <_arguement_here_>`
 
 # OSX
 - information about usage here
