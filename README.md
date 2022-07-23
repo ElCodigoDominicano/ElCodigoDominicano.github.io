@@ -16,17 +16,19 @@ reported by the systems environment(ex. Windows, Nix, MACOS) such as..<br>
 ###### List of available arguements for Nix systems: bios, processor, network4, network6, memory, drivers, check_vuln, power
 ```markdown
 $> python SystemParser <_arguement_>
+```
 
 # Windows
-
 ###### List of available arguements for Windows systems: bus, processor, network, memory, drivers, sound, floppy, ide,
 ######  pcmcia, usb_hub, usb_controller, usb_controller_device, parallel, serial_port, serial_port_settings, graphics
 ```markdown
 $> py SystemParser <_arguement_>
+```
 
 # OSX
 ```markdown
 $> information about usage here
+```
 
 **Bold** and _Italic_ and `Code` text
 
