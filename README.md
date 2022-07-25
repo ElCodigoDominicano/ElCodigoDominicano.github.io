@@ -15,7 +15,27 @@ reported by the systems environment(ex. Windows, Nix, MACOS) such as..<br>
 # Nix
 #### List of available arguements for Nix systems: bios, processor, network4, network6, memory, drivers, check_vuln, power
 ```markdown
-$> python SystemParser <*arguement*>
+$> python SystemParser network4
+```
+produces...
+
+```markdown
+cipso_cache_bucket_size =>               10              
+cipso_cache_enable   =>               1               
+cipso_rbm_optfmt     =>               0               
+cipso_rbm_strictvalid =>               1               
+accept_local         =>               0               
+accept_redirects     =>               1               
+accept_source_route  =>               0               
+arp_accept           =>               0               
+arp_announce         =>               0               
+arp_filter           =>               0               
+arp_ignore           =>               0               
+arp_notify           =>               0               
+bc_forwarding        =>               0               
+bootp_relay          =>               0               
+disable_policy       =>               0               
+disable_xfrm         =>               0               
 ```
 
 # Windows
