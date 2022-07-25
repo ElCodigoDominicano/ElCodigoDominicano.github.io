@@ -24,9 +24,9 @@ git clone https://github.com/SolFox/SystemParser
 ```markdown
 $> python SystemParser network4
 ```
-Above will have the program go into the directory /proc/sys/net/ipv4 and display 
-all values found for each file (in this case the ipv4 setting / configuration) 
-and does the same for every subdirectory.
+Above will have the program go into the directory /proc/sys/net/ipv4 and display<br>
+all values found for each file (in this case the ipv4 setting / configuration where this program is ran)<br> 
+and does the same for every subdirectory within it.
 
 ```markdown
 cipso_cache_bucket_size =>               10              
