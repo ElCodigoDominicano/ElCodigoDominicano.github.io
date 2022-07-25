@@ -2,8 +2,9 @@
 
 # SystemParser_0.0.3-alpha
 
-A simple system information gathering tool written in python, displays a medley of system information
-reported by the systems environment(ex. Windows, Nix, MACOS) such as..<br>
+A simple system information gathering tool written in python, displays a medley of<br>
+system information reported by the systems environment(ex. Windows, Nix, MACOS)<br> 
+such as..
 - hardware information (>processor vulnerability check for Linux machines)
 - network information
 - audio information
@@ -13,7 +14,7 @@ reported by the systems environment(ex. Windows, Nix, MACOS) such as..<br>
 - and more 
 
 # Nix
-First(The only requirement): download python and install it (preferably v3.8+)
+First(The only requirement): download python and install it (preferably v3.8+)<br>
 Second: 
 ```markdown
 cd ~/Desktop
@@ -51,7 +52,7 @@ disable_xfrm         =>               0
 
 # Windows
 #### List of available arguements for Windows systems: bus, processor, network, memory, drivers, sound, floppy, ide,
-#### pcmcia, usb_hub, usb_controller, usb_controller_device, parallel, serial_port, serial_port_settings, graphics
+#### pcmcia, usb_hub, usb_controller, usb_controller_device, parallel, serial_port, serial_port_settings.
 ```markdown
 $> py SystemParser <*arguement*>
 ```
@@ -60,8 +61,6 @@ $> py SystemParser <*arguement*>
 ```markdown
 $> *information about usage here*
 ```
-
-**Bold** and _Italic_ and `Code` text
 
 ### Work in progress
 hint: It works and it's an ongoing progress
