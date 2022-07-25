@@ -2,7 +2,7 @@
 
 # SystemParser_0.0.3-alpha
 
-A simple system information gathering tool written in python, displays a medley of system information<br>
+A simple system information gathering tool written in python, displays a medley of system information
 reported by the systems environment(ex. Windows, Nix, MACOS) such as..<br>
 - hardware information (>processor vulnerability check for Linux machines)
 - network information
@@ -24,9 +24,8 @@ git clone https://github.com/SolFox/SystemParser
 ```markdown
 $> python SystemParser network4
 ```
-Above will have the program go into the directory /proc/sys/net/ipv4 and display<br>
-all values found for each file (in this case the ipv4 setting / configuration where this program is ran)<br> 
-and does the same for every subdirectory within it.
+Above will have the program go into the directory /proc/sys/net/ipv4 and display all values found for each file,<br>
+(in this case the ipv4 setting/configuration) and does the same for every subdirectory within it.
 
 ```markdown
 cipso_cache_bucket_size =>               10              
