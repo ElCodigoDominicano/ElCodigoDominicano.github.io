@@ -13,11 +13,19 @@ reported by the systems environment(ex. Windows, Nix, MACOS) such as..<br>
 - and more 
 
 # Nix
+First(The only requirement): download python and install it (preferably v3.8+)
+Second: 
+```markdown
+cd ~/Desktop
+git clone https://github.com/SolFox/SystemParser
+```
+
 #### List of available arguements for Nix systems: bios, processor, network4, network6, memory, drivers, check_vuln, power
 ```markdown
 $> python SystemParser network4
 ```
-produces...
+Above will have the program go into the directory /proc/sys/net/ipv4 and displays 
+all values found for each file (in this case ipv4 setting / configuration) and subdirectory.
 
 ```markdown
 cipso_cache_bucket_size =>               10              
@@ -35,12 +43,15 @@ arp_notify           =>               0
 bc_forwarding        =>               0               
 bootp_relay          =>               0               
 disable_policy       =>               0               
-disable_xfrm         =>               0               
+disable_xfrm         =>               0
+...
+...
+...
 ```
 
 # Windows
 #### List of available arguements for Windows systems: bus, processor, network, memory, drivers, sound, floppy, ide,
-####  pcmcia, usb_hub, usb_controller, usb_controller_device, parallel, serial_port, serial_port_settings, graphics
+#### pcmcia, usb_hub, usb_controller, usb_controller_device, parallel, serial_port, serial_port_settings, graphics
 ```markdown
 $> py SystemParser <*arguement*>
 ```
