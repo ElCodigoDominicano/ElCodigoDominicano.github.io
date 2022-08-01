@@ -1,8 +1,6 @@
-## Welcome! / Bienvenido! to my corner of code.
+# SystemParser_0.1.0
 
-# SystemParser_0.0.3-alpha
-
-A simple system information gathering tool written in python, displays a medley of<br>
+A simple system information gathering tool written in python using the asyncio library, displays a medley of<br>
 system information reported by the systems environment(ex. Windows, Nix, MACOS)<br> 
 such as..
 - hardware information (>processor vulnerability check for Linux machines)
@@ -21,7 +19,10 @@ cd ~/Desktop
 git clone https://github.com/SolFox/SystemParser
 ```
 
-#### List of available arguements for Nix systems: bios, processor, network4, network6, memory, drivers, check_vuln, power
+#### List of available arguments for Nix systems: 
+processor, bios, virtual_memory_statistics, vulnerability_check, network_info4, network_info6,
+modules_drivers, power, uptime, load_average
+
 ```markdown
 $> python SystemParser network4
 ```
@@ -51,10 +52,13 @@ disable_xfrm         =>               0
 ```
 
 # Windows
-#### List of available arguements for Windows systems: bus, processor, network, memory, drivers, sound, floppy, ide,
-#### pcmcia, usb_hub, usb_controller, usb_controller_device, parallel, serial_port, serial_port_settings.
+#### List of available arguments for Windows systems:
+bus, motherboard, processor, memory, sound_device, floppy_controller, ide_controller,
+pcmcia_controller, parallel_port, usb_hub, usb_controller, usb_controller_device,
+serial_port, serial_port_settings, serial_port_configurations, list_environment_variables,
+video_controller, video_settings, video_configurations
 ```markdown
-$> py SystemParser <*arguement*>
+$> py SystemParser <*argument*>
 ```
 
 # OSX
