@@ -62,7 +62,7 @@ serial_port, serial_port_settings, serial_port_configurations, list_environment_
 video_controller, video_settings, video_configurations
 
 open a command prompt: win+r on your keyboard, type the abbreviation < cmd > inside the windows run dialog window and press enter this opens a command 
-prompt in windows.
+prompt in windows.. change into the same directory the package was extracted (if Desktop ->  `cd Desktop`)
 
 Then:
 ```markdown
