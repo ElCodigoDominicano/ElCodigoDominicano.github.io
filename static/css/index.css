@@ -13,7 +13,7 @@ html, body {
   background-color: #333;
 }
 
-container {
+main {
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -29,12 +29,12 @@ header {
   position: fixed;
 }
 
-nav ul.header-bar {
+nav ul.ul-header {
   display: flex;
   background-color: #333;
 }
 
-nav ul.header-bar span {
+nav ul.ul-header span {
   flex-grow: 1;
 }
 
@@ -91,7 +91,7 @@ footer nav {
   box-shadow: 0px -8px 8px rgba(255, 255, 255, 0.568);
 }
 
-footer nav ul li {
+footer nav ul.footer-items li {
   display: flex;
   justify-content: space-evenly;
   font-size: 10px;
