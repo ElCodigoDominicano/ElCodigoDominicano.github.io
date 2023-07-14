@@ -14,7 +14,7 @@ html, body {
   background-color: #333;
 }
 
-#container {
+container {
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -24,7 +24,7 @@ html, body {
 /* ////////////////////////////////////////////////////////////// */
 /* //////////////////////////  Header  ////////////////////////// */
 /* ////////////////////////////////////////////////////////////// */
-#header {
+header {
   top: 0;
   width: 100vw;
   position: fixed;
@@ -62,7 +62,7 @@ nav ul li a:hover {
 /* ///////////////////////////  Body  /////////////////////////// */
 /* ////////////////////////////////////////////////////////////// */
 
-#body {
+body {
   color: aliceblue;
   margin-top: 40px;
   padding-bottom: 20px;
@@ -75,7 +75,7 @@ nav ul li a:hover {
 /* ////////////////////////////////////////////////////////////// */
 /* //////////////////////////  Footer  ////////////////////////// */
 /* ////////////////////////////////////////////////////////////// */
-#footer {
+footer {
   /* top: 40px; */
   bottom: 0;
   /* position: relative; */
@@ -114,7 +114,7 @@ footer nav ul li span {
     /* height: 26.5px; */
     background-color: #333;
   }
-  #body {
+  body {
     margin-top: 80px;
   }
   nav ul.header-bar {  
