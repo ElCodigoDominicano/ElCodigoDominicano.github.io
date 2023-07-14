@@ -1,0 +1,73 @@
+@import url(fonts.css);
+
+.about {
+    display: flex;
+    flex-shrink: 0;
+    text-align: justify;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 450px;
+    width: 100vw;
+}
+ 
+.about h3 {
+    color: aliceblue;
+}
+
+.about li {
+    text-indent: 2rem;
+    list-style: lower-roman;
+    list-style-position: inside;
+}
+
+.about p {
+    display: inline-block;
+    /* position: relative; */
+    min-width: 600px;
+    max-width: 798px;
+    /* color: aliceblue; */
+    text-indent: 1rem;
+    text-align: justify;
+    width: 50vw;
+    position: inherit;
+    /* width: auto; */
+}
+.about ul, .about span {
+    display: inline-block;
+    /* display: flex; */
+    /* position: relative; */
+    /* width: 50w;
+     */
+    width: 40vw;
+    min-width: 450px;
+    max-width: 1650px;
+    text-indent: 1rem;
+    margin-right: 90px;
+    margin-left: 60px;
+    /* flex-shrink: 0; */
+    /* flex-shrink: 0; */
+    /* margin-right: 360px; */
+    
+    /* flex: 1 0; */
+    /* display: inline; */
+    
+    /* align-self: flex-start; */
+    /* padding-right: 480px; */
+
+}
+/* .about li {
+    text-indent: 1.75rem;
+} */
+/* 
+.about p:nth-child() */
+/* @media screen and (max-width: 600px) {
+    .about p {
+        width: 75vw;
+    }
+
+    .about ul {
+        margin-right: 0px
+    }
+} */
