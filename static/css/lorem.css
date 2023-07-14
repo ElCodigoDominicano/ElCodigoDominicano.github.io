@@ -1,13 +1,8 @@
-@import url(fonts.css);
-
 main {
-    
-    /* height: 100vh; */
+    background-color: black;
 }
-
-/* .content { height: 0vh; } */
 p.Lipsum  {
-    font-family: 'MedievalSharp';
+/*     font-family: 'MedievalSharp'; */
     font-size: 1.25rem;
     color: rgb(218, 54, 54);
     text-align: justify;
@@ -16,10 +11,9 @@ p.Lipsum  {
 }
   
 .lol, .Lipsum  {
-    font-family: 'MedievalSharp';
+/*     font-family: 'MedievalSharp'; */
     text-align: center;
     color: yellow;
     font-size: 4rem;
     margin-bottom: 0.25em;
 }
-  
