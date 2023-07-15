@@ -10,8 +10,6 @@
 }
 
 html, body {
-
-/*   font-family: 'Anek Telugu', sans-serif; */
   background-color: #333;
 }
 
@@ -69,7 +67,6 @@ body {
   margin-top: 40px;
   padding-bottom: 20px;
   text-align: justify;
-  /* text-indent: 2re; */
   size: 16px;
   flex: 1;
 }
@@ -83,7 +80,6 @@ footer {
 
 footer nav {
   border-top:  1px solid whitesmoke;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   box-shadow: 0px -8px 8px rgba(255, 255, 255, 0.568);
@@ -102,14 +98,11 @@ footer nav ul li span {
   flex-shrink: 1;
 }
 
-
-
 /* ////////////////////////////////////////////////////////////// */
 /* ////////////  Small Screens  //////////  Dropdown  /////////// */
 /* ////////////////////////////////////////////////////////////// */
 @media screen and (max-width: 700px) {
   nav {
-    /* height: 26.5px; */
     background-color: #333;
   }
   body {
