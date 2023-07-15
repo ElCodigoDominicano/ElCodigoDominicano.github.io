@@ -77,15 +77,10 @@ body {
 /* //////////////////////////  Footer  ////////////////////////// */
 /* ////////////////////////////////////////////////////////////// */
 footer {
-  /* top: 40px; */
   bottom: 0;
-  /* position: relative; */
-  /* width: 100vw; */
-  /* height: 50px; */
 }
 
 footer nav {
-  /* position: relative; */
   border-top:  1px solid whitesmoke;
   /* display: flex; */
   justify-content: center;
@@ -95,8 +90,9 @@ footer nav {
 
 footer nav ul.footer-items li {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
-  font-size: 10px;
+  font-size: 16px;
   color: aliceblue;
   align-items: center;
 }
