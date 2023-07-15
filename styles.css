@@ -1,147 +1,67 @@
 @import "{{ site.theme }}";
 
-/* ////////////////////////////////////////////////////////////// */
-/* /////////////////////////  Settings  ///////////////////////// */
-/* ////////////////////////////////////////////////////////////// */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html, body {
-  background-color: #333;
-}
-
-main {
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
-}
-
-
-/* ////////////////////////////////////////////////////////////// */
-/* //////////////////////////  Header  ////////////////////////// */
-/* ////////////////////////////////////////////////////////////// */
-header {
-  top: 0;
-  width: 100vw;
-  position: fixed;
-  box-shadow: 0px 8px 8px rgba(255, 255, 255, 0.568);
-}
-
-nav ul.ul-header {
-  display: flex;
-  background-color: #333;
-}
-
-nav ul.ul-header span {
-  flex-grow: 1;
-}
-
-nav ul li {
-  display: inline-block;
-  position: relative;
-  padding: 4px
-}
-
-nav ul li a {
-  display: block;
-  padding: 2px;
-  color: #fffdfd;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  color: #fff;
-  background: #939393;
-}
-
-
-/* ////////////////////////////////////////////////////////////// */
-/* ///////////////////////////  Body  /////////////////////////// */
-/* ////////////////////////////////////////////////////////////// */
-
-body {
-  color: aliceblue;
-  margin-top: 40px;
-  padding-bottom: 20px;
-  text-align: justify;
-  size: 16px;
-  flex: 1;
-}
-
-/* ////////////////////////////////////////////////////////////// */
-/* //////////////////////////  Footer  ////////////////////////// */
-/* ////////////////////////////////////////////////////////////// */
-footer {
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-footer nav {
-  display: flex;
-  border-top:  1px solid whitesmoke;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0px -8px 8px rgba(255, 255, 255, 0.568);
-}
-
-footer nav ul.footer-items li {
-  justify-content: space-evenly;
-  font-size: 16px;
-  color: aliceblue;
-  align-items: center;
-}
-
-footer nav ul li span {
-  flex-shrink: 1;
-}
-
-/* ////////////////////////////////////////////////////////////// */
-/* ////////////  Small Screens  //////////  Dropdown  /////////// */
-/* ////////////////////////////////////////////////////////////// */
-@media screen and (max-width: 700px) {
-  nav {
-    background-color: #333;
-  }
-  body {
-    margin-top: 80px;
-  }
-  nav ul.header-bar {  
     margin: 0;
     padding: 0;
-    width: 0%;
-    height: 0%;
-    display: inline-block;
-    position: relative;
-  }
-  
-  nav ul.header-bar ul {
-    background-color: #202020;
-  }
-  nav ul.header-bar li > a {
-    color: bisque;
-    text-decoration: none;
-  }
-  
-  nav ul.header-bar li a:hover {
-    color: #fff;
-    background: #939393;
-  }
-  
-  nav ul.ul-header ul.header-dropdown {
-    display: none;
-    z-index: 999;
-    padding: 0;
-  }
-
-  nav ul.ul-header ul.header-dropdown li.header-items {
-    width: 120px;
-  }
-  
-  nav ul:hover ul.header-dropdown {
-    display: block;
-  }
+    box-sizing: border-box;
 }
+
+html {
+/*     font-family: 'Anek Telugu', sans-serif; */
+    background-color: #333;
+    color: white;
+}
+
+
+html head main {
+}
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.568);
+    
+}
+    
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+ }
+
+
+footer {
+    grid-area: 3 / 1 / 4 / 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    position: fixed;
+    font-size: 15px;
+    padding-right: 5px;
+    text-align: end;
+    box-shadow: 0px -8px 16px rgba(255, 255, 255, 0.568);
+}
+
+
+/* 
+.card {
+    height: 100px;
+    width: 200px;
+    }
+    .content {
+        transform: translate(40px, -10px);
+        background: gray;
+        flex-wrap: wrap;
+        border-radius: 13px;
+        transition: 0.3s;
+        -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+        box-shadow: 5px 5px 15px 5px #000000;
+    } */
